@@ -1,0 +1,16 @@
+File handling read/write
+
+Pseudo Code
+step1.  Select operation to read,write or append
+step2. User inputs some strings in the file , and continues till user inputs stop string
+step3. If  read
+             check whether the file exists or not
+             if exists
+                then read all the lines and print it in the console
+   else if write
+              if file exists
+                then override the all previous content    
+              else
+                add lines to the file
+   else if append
+             if file exists then add lines to the code

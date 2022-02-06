@@ -1,0 +1,13 @@
+Algorithm
+Data: Input array of size n
+Result: LIS
+Lis[n]:= 1,1,1,1....,1;
+for i=2...n do
+for j=2...n do
+for j=1...i-1 do 
+ if array[i]>array[j] AND Lis[i]<=Lis[j] then
+Lis[i]:= Lis[j]+1;
+end
+end
+end
+Return MAX(Lis[0],Lis[1],...,Lis[n]);

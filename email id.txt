@@ -1,0 +1,9 @@
+Validation of email Algorithm
+step1: Start
+step2: Create a variable to receive the users email address
+step3: Clear the variable in case its not empty
+step4: Ask the user for an email address
+step5: Store the response in the variable
+step6: Check the stored response to see if it is a valid email address
+step7: Not valid? Go back to step 3.
+step8:End

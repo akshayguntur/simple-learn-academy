@@ -1,0 +1,6 @@
+Append algorithm:
+step1:Create this class to dempnstrate 'append' method when used with stringbuffer
+step2: create a stringbuffer object 'object' containing "start" string
+step3:variables and object to be append to the above object 'object1'
+step4:Append the data in the above variable and object to 'object1'using'append()'method.
+step5:print the value of 'object1'after appending
